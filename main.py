@@ -89,7 +89,7 @@ def app(title=None)-> None:
         title (string, optional): The App name. Defaults to None.
     """
     st.title(title)
-    st.write("Developer: Mike Salem")
+    st.markdown("### Developer: Mike Salem [Linked In](https://www.linkedin.com/in/mike-salem)")
     st.write("The following is an implementation of GradCam from the Kera's Library")
     st.write("The implementation has been wrapped into Streamlit for the audiance to explore. To use, copy a URL of an image (not the image itself) and watch the algorithm tell you the prediction and what pixels it used to make that prediction. Note this is a general example so please use general images (e.g. footballs, airplanes, food, etc.)")
     model_builder = keras.applications.xception.Xception
